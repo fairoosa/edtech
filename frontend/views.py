@@ -6,3 +6,11 @@ from django.views import generic
 class HomePage(generic.TemplateView):
     template_name = "homepage.html"
 
+
+class BlogPage(generic.TemplateView):
+    template_name = "blogpage.html"
+
+
+class TestmonialPage(generic.TemplateView):
+    template_name = "testmonialpage.html"
+
