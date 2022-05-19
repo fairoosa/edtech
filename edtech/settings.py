@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'teacher',
     'student',
     'frontend',
+    'course',
     # 'admin',
 ]
 
